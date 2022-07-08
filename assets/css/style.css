@@ -1,0 +1,16 @@
+a {
+    text-decoration: none;
+    color: grey;
+}
+
+body {
+    background-image: linear-gradient(to bottom, #d5d6d3, #c5cac3, #b3beb6, #9fb3ab, #8ba8a3);
+}
+
+.img-logo {
+    width: 100%;
+}
+
+.card {
+    width: 250px;
+}

@@ -9,16 +9,23 @@ body {
 
 .grid-cat {
     display:grid;
-    gap: 10px;
+    gap: 20px;
+    margin-top: 20px;
     grid-template-columns: 1fr 1fr 1fr;
     grid-template-rows: auto;
-    grid-template-areas: "card card card";
+ 
 }
-
 
 .img-logo {
     width: 100%;
+
 }
 
-.card {
+.grid-cat>.card {
+
 }
+
+.card-list>.card {
+    
+}
+

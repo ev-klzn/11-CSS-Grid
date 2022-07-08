@@ -7,6 +7,19 @@ body {
     background-image: linear-gradient(to bottom, #d5d6d3, #c5cac3, #b3beb6, #9fb3ab, #8ba8a3);
 }
 
+header { 
+    grid-area: header; 
+}
+main { 
+    grid-area: main; 
+}
+
+footer { 
+    grid-area: footer;
+}
+
+.container 
+
 .grid-cat {
     display:grid;
     gap: 20px;

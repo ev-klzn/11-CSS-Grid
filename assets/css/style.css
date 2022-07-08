@@ -7,10 +7,18 @@ body {
     background-image: linear-gradient(to bottom, #d5d6d3, #c5cac3, #b3beb6, #9fb3ab, #8ba8a3);
 }
 
+.grid-cat {
+    display:grid;
+    gap: 10px;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: auto;
+    grid-template-areas: "card card card";
+}
+
+
 .img-logo {
     width: 100%;
 }
 
 .card {
-    width: 250px;
 }

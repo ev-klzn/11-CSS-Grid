@@ -4,7 +4,7 @@ a {
 }
 
 body {
-    background-image: linear-gradient(to bottom, #d5d6d3, #c5cac3, #b3beb6, #9fb3ab, #8ba8a3);
+    background-image: linear-gradient(to bottom, #e4e9e9, #e0e4e5, #dddedf, #d9d9da, #d4d4d4);
 }
 
 #gridbox { 
@@ -62,6 +62,17 @@ footer {
     transition: 0.5s;
 }
 
+.copy {
+    background-image: linear-gradient(to bottom, #e4e9e9, #e0e4e5, #dddedf, #d9d9da, #d4d4d4);
+}
+
+.navbar {
+    background-image: linear-gradient(to bottom, #e4e9e9, #e0e4e5, #dddedf, #d9d9da, #d4d4d4);
+}
+
+.btn {
+    background-color:  #E4E9E9;
+}
 
 
 

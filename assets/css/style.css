@@ -54,11 +54,11 @@ footer {
     grid-template-areas: "grid-card";
 }
 
-.card:hover {
+.cards:hover {
     transform: scale(1.05);
 }
 
-.card {
+.cards {
     transition: 0.5s;
 }
 

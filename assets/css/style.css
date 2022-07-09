@@ -7,6 +7,16 @@ body {
     background-image: linear-gradient(to bottom, #d5d6d3, #c5cac3, #b3beb6, #9fb3ab, #8ba8a3);
 }
 
+#gridbox { 
+    display: grid;
+    min-height: 100vh;
+    grid-template-columns: 1fr;
+    grid-template-rows: auto 1fr auto;   
+    grid-template-areas:    "header"   
+                            "main"
+                            "footer";
+}
+
 header { 
     grid-area: header; 
 }
